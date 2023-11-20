@@ -1,1 +1,44 @@
-/* Add your own styles */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: aliceblue;
+    height: 200vh;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #455a64;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #country {
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 15px;
+  }
+  
+  #lookup {
+    background-color: darkturquoise;
+    color: whitesmoke;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
